@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Header } from "semantic-ui-react";
-import Gnb from "./Gnb";
+import Nav from "./Nav";
 
 import * as style from "./Top.module.css";
 
@@ -11,7 +11,7 @@ export default function Top() {
         <Image src="/images/light-mode.png" alt="logo" width={80} height={80} />
         <Header as="h1">Here is Nongsy.</Header>
       </div>
-      <Gnb />
+      <Nav />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import { Menu } from "semantic-ui-react";
 import * as style from "./Gnb.module.css";
 
-export default function Gnb() {
+export default function Nav() {
   const activeItem = "home";
   return (
     <Menu inverted>
